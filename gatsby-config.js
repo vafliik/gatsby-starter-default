@@ -27,6 +27,21 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Source Sans Pro\:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i`,
+          `Merriweather\:300,300i,400,400i,700,700i,900,900i`
+        ]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us4.list-manage.com/subscribe/post?u=5ae5ac19e8a9971f2ac42f3a3&amp;id=fca62eef9f',
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

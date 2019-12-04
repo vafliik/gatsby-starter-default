@@ -3,32 +3,32 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header class="main-header header-style-three">
+  <header className="main-header header-style-three">
     	
-    	<div class="main-box">
-            <div class="outer-container clearfix">
-                <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="images/logo-3.png" alt=""></a></div>
+    	<div className="main-box">
+            <div className="outer-container clearfix">
+                <div className="logo-box">
+                    <div className="logo"><a href="index.html"><img src="images/logo-3.png" alt="" /></a></div>
                 </div>
                 
-                <div class="nav-outer clearfix">
-                    <nav class="main-menu">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
+                <div className="nav-outer clearfix">
+                    <nav className="main-menu">
+                        <div className="navbar-header">
+                            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
                             </button>
                         </div>
                         
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="#">Home</a>
+                        <div className="navbar-collapse collapse clearfix">
+                            <ul className="navigation clearfix">
+                                <li className="current dropdown"><a href="#">Home</a>
                                     <ul>
                                         <li><a href="index.html">Homepage One</a></li>
                                         <li><a href="index-2.html">Homepage Two</a></li>
                                         <li><a href="index-3.html">Homepage Three</a></li>
-                                        <li class="dropdown"><a href="#">Headers Style</a>
+                                        <li className="dropdown"><a href="#">Headers Style</a>
                                             <ul>
                                                 <li><a href="index.html">Header Style One</a></li>
                                                 <li><a href="index-2.html">Header Style Two</a></li>
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">About Us</a>
+                                <li className="dropdown"><a href="#">About Us</a>
                                     <ul>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="agents.html">Agents</a></li>
@@ -46,14 +46,14 @@ const Header = ({ siteTitle }) => (
                                     </ul>
                                 </li>
                                 <li><a href="features.html">Features</a></li>
-                                <li class="dropdown"><a href="#">Gallery</a>
+                                <li className="dropdown"><a href="#">Gallery</a>
                                     <ul>
                                         <li><a href="gallery.html">Gallery Fullwidth</a></li>
                                         <li><a href="gallery-grid.html">Gallery Three Column</a></li>
                                         <li><a href="gallery-single.html">Gallery Single</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Blog</a>
+                                <li className="dropdown"><a href="#">Blog</a>
                                     <ul>
                                         <li><a href="blog-grid.html">Our Blog</a></li>
                                         <li><a href="blog-detail.html">Blog Detail</a></li>
@@ -64,19 +64,19 @@ const Header = ({ siteTitle }) => (
                         </div>
                     </nav>
                     
-                    <div class="options-box">
-                        <ul class="options-nav">
+                    <div className="options-box">
+                        <ul className="options-nav">
                             
-                            <li class="search-box-outer">
-                                <div class="dropdown">
-                                    <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
-                                    <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
-                                        <li class="panel-outer">
-                                            <div class="form-container">
+                            <li className="search-box-outer">
+                                <div className="dropdown">
+                                    <button className="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="fa fa-search"></span></button>
+                                    <ul className="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                                        <li className="panel-outer">
+                                            <div className="form-container">
                                                 <form method="post" action="blog.html">
-                                                    <div class="form-group">
-                                                        <input type="search" name="field-name" value="" placeholder="Search Here" required>
-                                                        <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                                                    <div className="form-group">
+                                                        <input type="search" name="field-name" value="" placeholder="Search Here" required />
+                                                        <button type="submit" className="search-btn"><span className="fa fa-search"></span></button>
                                                     </div>
                                                 </form>
                                             </div>
@@ -84,8 +84,8 @@ const Header = ({ siteTitle }) => (
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#"><span class="icon fa fa-phone"></span></a></li>
-                            <li><a href="#"><span class="icon fa fa-envelope"></span></a></li>
+                            <li><a href="#"><span className="icon fa fa-phone"></span></a></li>
+                            <li><a href="#"><span className="icon fa fa-envelope"></span></a></li>
                         </ul>
                     </div>
                     
@@ -94,32 +94,32 @@ const Header = ({ siteTitle }) => (
             </div>
         </div>
     
-        <div class="sticky-header">
-        	<div class="auto-container">
+        <div className="sticky-header">
+        	<div className="auto-container">
             	
-                <div class="outer-container clearfix">
-                    <div class="logo-box pull-left">
-                        <div class="logo"><a href="index.html"><img src="images/logo-small.png" alt=""></a></div>
+                <div className="outer-container clearfix">
+                    <div className="logo-box pull-left">
+                        <div className="logo"><a href="index.html"><img src="images/logo-small.png" alt="" /></a></div>
                     </div>
                     
-                    <div class="nav-outer clearfix">
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
+                    <div className="nav-outer clearfix">
+                        <nav className="main-menu">
+                            <div className="navbar-header">
+                                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span className="icon-bar"></span>
+                                    <span className="icon-bar"></span>
+                                    <span className="icon-bar"></span>
                                 </button>
                             </div>
                             
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#">Home</a>
+                            <div className="navbar-collapse collapse clearfix">
+                                <ul className="navigation clearfix">
+                                    <li className="current dropdown"><a href="#">Home</a>
                                         <ul>
                                             <li><a href="index.html">Homepage One</a></li>
                                             <li><a href="index-2.html">Homepage Two</a></li>
                                             <li><a href="index-3.html">Homepage Three</a></li>
-                                            <li class="dropdown"><a href="#">Headers Style</a>
+                                            <li className="dropdown"><a href="#">Headers Style</a>
                                                 <ul>
                                                     <li><a href="index.html">Header Style One</a></li>
                                                     <li><a href="index-2.html">Header Style Two</a></li>
@@ -128,7 +128,7 @@ const Header = ({ siteTitle }) => (
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">AboutUs</a>
+                                    <li className="dropdown"><a href="#">AboutUs</a>
                                         <ul>
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="agents.html">Agents</a></li>
@@ -137,14 +137,14 @@ const Header = ({ siteTitle }) => (
                                         </ul>
                                     </li>
                                     <li><a href="features.html">Features</a></li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
+                                    <li className="dropdown"><a href="#">Gallery</a>
                                         <ul>
                                             <li><a href="gallery.html">Gallery Fullwidth</a></li>
                                             <li><a href="gallery-grid.html">Gallery Three Column</a></li>
                                             <li><a href="gallery-single.html">Gallery Single</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Blog</a>
+                                    <li className="dropdown"><a href="#">Blog</a>
                                         <ul>
                                             <li><a href="blog-grid.html">Our Blog</a></li>
                                             <li><a href="blog-detail.html">Blog Detail</a></li>

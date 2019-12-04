@@ -43,12 +43,12 @@ font-family: 'Montserrat', sans-serif;*/
 @import url('flaticon.css');
 @import url('animate.css');
 @import url('hover.css');
-@import url('owl.css');
+/* @import url('owl.css'); */
 @import url('jquery-ui.css');
 @import url('monthly.css');
 @import url('jquery.timepicker.css');
 @import url('jquery.fancybox.min.css');
-@import url('jquery.mCustomScrollbar.min.css');
+/* @import url('jquery.mCustomScrollbar.min.css'); */
 
 /*** 
 
